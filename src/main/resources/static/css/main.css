@@ -1,0 +1,157 @@
+*
+{
+	font-family: fantasy;
+}
+
+body 
+{
+  	background-color: #d1ccba;
+}
+
+h1, h3
+{
+	text-align: center;
+	color:#000;
+}
+
+
+h3,
+h5,
+h6
+{
+	color: #fff;	
+}
+
+
+.field
+{
+	color: #000;
+}
+
+p
+{
+	padding-left: 15px;
+	color: #fff;
+}
+	
+.card
+{
+	background-color: #000;
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+	
+
+}
+ 
+.card-header
+{
+	color: #000;
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    #ccc 20px,
+    #ccc 10px
+  ),
+  
+  linear-gradient(
+    to bottom,
+    #eee,
+    #999
+  )
+
+}
+  	
+td 
+{
+  	height: 50px;
+  	padding: 5px;
+  	font-family: fantasy;
+}
+  	
+
+div.gallery {
+  margin: 2%;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  padding-bottom: 5%;
+
+}
+
+div.gallery img 
+{
+  width: 100%;
+
+}
+
+.desc
+{
+	text-align: center;
+}
+
+img 
+{
+    float: left;
+    width:  700px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.carousel-inner
+{
+	padding-bottom: 100px;
+}
+
+.btn-primary 
+{
+	padding-left: 50%;
+	padding-right: 50%;
+}
+
+#wrapper 
+{
+	width: 920px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.vid1
+{
+	width: 47.5%;
+	height: 300px;
+	float: left;
+	margin-right: 5%;
+	padding-bottom: 80px;
+
+}
+
+.vid2
+{
+	width: 47.5%;
+	height: 300px;
+	float: left;
+	padding-bottom: 80px;
+
+}
+
+hr.line
+{
+	border-top: 20px solid #000;
+	margin-top: 0;
+
+}
+	
+.footer
+{
+  	position: fixed;
+  	left: 0;
+ 	bottom: 0;
+ 	width: 100%;
+ 	height: 50px;
+  	background-color:#000;
+  	color: white;
+  	text-align: center;		
+  
+}

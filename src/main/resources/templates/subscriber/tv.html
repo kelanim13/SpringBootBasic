@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>TV</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  	<link th:href="@{/css/main.css}" rel="stylesheet" />
+  </head> 
+  
+  <body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  	<div class="container-fluid">
+		<a class="navbar-brand" th:href="@{/}">KMovies</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" th:href="@{/movies}">Movies</a>
+	        </li>
+	         <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" th:href="@{/tv}">TV</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" th:href="@{/actor}">Actors</a>
+	        </li>
+	      </ul>
+	      <form class="d-flex">
+	        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+	        <button class="btn btn-outline-success" type="submit">Search</button>
+	      </form>
+	    </div>
+	  </div>
+</nav>
+
+<br><br>
+
+  <h1><b>This Week's TV selection!</b></h1>
+  
+<a class="btn btn-primary" th:href="@{/}">Subscribe!</a>
+
+<br><b></b>
+
+
+
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn1.edgedatg.com/aws/v2/abc/GreysAnatomy/showimages/e303200d0a22fddbc17ce6f4963d17c3/1600x900-Q90_e303200d0a22fddbc17ce6f4963d17c3.jpg"
+       class="d-block w-100" alt="Grey's Anatomy">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.nbc.com/sites/nbcunbc/files/images/2020/10/27/LOSVU_S22-KeyArt-Logo-Show-Tile-1920x1080.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://occ-0-1068-92.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABW4YBvPwp_VCZmx9sdC4_57VZo-Bn9cRV1IMIlMOPG2qLrxes_UikakA2oPM0Cz00AV-7r8Gti9aW2UjK3jHYCRmJQhP.jpg?r=933" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Criminal Minds</h5>
+       </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://explorewashingtonct.com/wp-content/uploads/2017/08/Gilmore-Girls-Getaway-Top-Banner.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Gilmore Girls</h5>
+       </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+<hr class="line">
+
+ <h1><b>This Week's Previews</b></h1>
+
+<br>
+
+<div id="wrapper">
+	<iframe class="vid1" width="560" height="315" src="https://www.youtube.com/embed/q1pcpgREQ5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 	<iframe class="vid2" width="560" height="315" src="https://www.youtube.com/embed/5RRmtDOBt0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>  
+ 
+
+
+<div class="footer">
+  	<br>
+  	<p class="footer-text">Created by Kelani Mueller</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+  
+  </body>
