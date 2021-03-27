@@ -86,7 +86,8 @@ div.gallery img
 
 }
 
-.desc
+.desc,
+.table
 {
 	text-align: center;
 }
@@ -117,13 +118,14 @@ img
 	margin: 0 auto;
 }
 
+
 .vid1
 {
 	width: 47.5%;
 	height: 300px;
 	float: left;
 	margin-right: 5%;
-	padding-bottom: 80px;
+	margin-bottom: 5%;
 
 }
 
@@ -132,7 +134,7 @@ img
 	width: 47.5%;
 	height: 300px;
 	float: left;
-	padding-bottom: 80px;
+	margin-bottom: 5%;
 
 }
 
@@ -142,6 +144,17 @@ hr.line
 	margin-top: 0;
 
 }
+
+.tv
+{
+	margin-bottom: 10%;
+}
+
+.result
+{
+	margin-bottom: 10%;
+}
+
 	
 .footer
 {
