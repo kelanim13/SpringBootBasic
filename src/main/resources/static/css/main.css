@@ -145,11 +145,16 @@ hr.line
 
 }
 
-.tv, 
-.movie
+.tv
 {
 	margin-bottom: 10%;
 }
+
+.movie
+{
+	margin-bottom: 5%;
+}
+
 
 .result
 {
